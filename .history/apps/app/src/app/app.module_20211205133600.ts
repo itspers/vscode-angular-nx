@@ -3,12 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { Lib1Module } from '@vscode-angular-nx/lib1';
-
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, Lib1Module],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { Lib1Module } from '@vscode-angular-nx/lib1';
+import { } from '@vscode-angular-nx/lib1';
 
 @NgModule({
   declarations: [AppComponent],
